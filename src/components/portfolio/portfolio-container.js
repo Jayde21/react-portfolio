@@ -28,4 +28,3 @@ export default class PortfolioContainer extends Component {
             </div>
         )
     }
-}
