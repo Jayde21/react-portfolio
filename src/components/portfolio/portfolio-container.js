@@ -15,7 +15,7 @@ export default class PortfolioContainer extends Component {
             return <PortfolioItem title={item} />;
         })
     }
-        //hello
+
     render(){
         //hi there
         return (
