@@ -4,7 +4,7 @@ import moment from "moment";
 import PortfolioContainer from './portfolio/portfolio-container';
 
 
-// hi there
+
 export default class App extends Component {
   render() {
     return (
