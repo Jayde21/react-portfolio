@@ -1,5 +1,5 @@
 import React from "react";
-import { ProvidePlugin } from "webpack";
+//import { ProvidePlugin } from "webpack";
 
 export default function(props) {
     return (

@@ -10,10 +10,10 @@ export default class PortfolioContainer extends Component {
     }
 
     PortfolioItems(){
-        const data = ["Yellow.exeNotFound", "Orange.exeNotfound", "Green.exeNotFound", "replace Green.exe with Blue.exe and Purple.exe", "replace Orange.exe with Red.exe", "replace yellow.exe with Pink.exe"];
+        const data = ["a","b","c","d","e","f"];
  
         return data.map(item => {
-            return <PortfolioItem title={item} url={"google.com"} />;
+            return <PortfolioItem title={item} url={"google.com"}/>;
         })
     }
 
