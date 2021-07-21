@@ -9,16 +9,21 @@ export default class PortfolioContainer extends Component {
         console.log("Portfolio container had rendered");
     }
 
+    PortfolioItems(){
+        const data = ["YellowNotFound", "OrangeNotfound", "GreenNotFound"];
+ 
+        return data.map(item => {
+            return <PortfolioItem/>;
+        })
+    }
+
     render(){
         //hi there
         return (
             <div>
                 <h2>Portfolio items go here updated...</h2>
 
-                <PortfolioItem/>
-                <PortfolioItem/>
-                <PortfolioItem/>
-                <PortfolioItem/>
+                {this.portfolioItems()}
             </div>
         )
     }
