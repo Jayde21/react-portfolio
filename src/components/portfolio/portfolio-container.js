@@ -10,10 +10,10 @@ export default class PortfolioContainer extends Component {
     }
 
     PortfolioItems(){
-        const data = ["YellowNotFound", "OrangeNotfound", "GreenNotFound"];
+        const data = ["Yellow.exeNotFound", "Orange.exeNotfound", "Green.exeNotFound", "replace Green.exe with Blue.exe and Purple.exe", "replace Orange.exe with Red.exe", "replace yellow.exe with Pink.exe"];
  
         return data.map(item => {
-            return <PortfolioItem/>;
+            return <PortfolioItem title={item} url={"google.com"}/>;
         })
     }
 
@@ -23,8 +23,7 @@ export default class PortfolioContainer extends Component {
             <div>
                 <h2>Portfolio items go here updated...</h2>
 
-                {this.portfolioItems()}
-            </div>
-        )
+                {this.PortfolioItems()}
+            </div>        )
     }
 }
