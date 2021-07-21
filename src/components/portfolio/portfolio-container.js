@@ -21,7 +21,6 @@ export default class PortfolioContainer extends Component {
         return (
             <div>
                 <h2>Portfolio items go here...</h2>
-                <h1>{item}</h1>
 
                 {this.PortfolioItems()}
             </div>
